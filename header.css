@@ -1,3 +1,26 @@
 .CABECALHO{
     background-color: var(--cor-do-cabecalho);
 }
+.container_imagem,.container_frae{
+    padding:1em;
+}
+.contairner_titulo,.frase{
+    display: none;
+}
+@media screen and (min-width:820px){
+ .contairner_titulo{
+    display:block;
+    font-weight:400;
+  }
+}
+
+@media screen and (min-width:1024px){
+    .container_frase{
+        display:block;
+        margin: auto;
+    }
+}
+    
+
+ 
+    
